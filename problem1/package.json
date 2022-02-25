@@ -1,0 +1,25 @@
+{
+  "name": "problem1",
+  "version": "1.0.0",
+  "description": "Develop a HTTP microservice called number-management-service that exposes a GET REST API \"/numbers\". This API receives a list of URLs through query parameters. This query param is called \"url\". It can appear more than once, for example:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/node": "^17.0.21",
+    "typescript": "^4.5.5"
+  }
+}
